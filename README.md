@@ -10,3 +10,7 @@ Programs to test the performance of the trained classifiers on a testset.
 To handle an imbalanced training data (one class is heavily underrepresented compared to the other class) with irrelevant and/or redundant features, the pre-processing methods a), b), c) and d) output a dimensionality-reduced balanced training data with the most informative (relevant) polynomial features only; then, k-fold CV is used to find optimal hyper-parameters of the classifier(s); finally, the classifier(s) with their optimal hyper-parameters are trained. 
 
 
+Reference:
+
+D. Tian, ZQ. Lang, D. Zhang and D. O Anumba “A Filter-Predictor Polynomial Feature Based Machine Learning Approach for Preterm Birth Prediction from Electrical Impedance Spectroscopy”, Journal of Biomedical Signal Processing and Control, vol. 80, 2023
+
