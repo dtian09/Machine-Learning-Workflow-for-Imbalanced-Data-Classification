@@ -1,8 +1,9 @@
 # Machine-Learning-Workflow-for-Imbalanced-Data-Classification
 
-Machine Learning Workflow 1: (1) apply the pre-processing methods: a) Oversampling, b) Polynomial feature construction, c) Information gain feature selection and d) Genetic algorithm feature selection; then, (2) optimizes the hyper-parameters of Random Forest (number of trees and max depth of each tree) and Logistic Regression (regularization) using grid search with K-fold Cross-Validation; finally, 3) trains Random Forest and Logistic Regression using the optimized hyper-parameters. The logistic regression and random forest classifers of Weka machine learning tool are called by workflow 1. 
+Machine Learning Workflow 1: (1) apply the pre-processing methods: a) Oversampling, b) Polynomial feature construction, c) Information gain feature selection and d) Genetic algorithm feature selection; then, (2) optimizes the hyper-parameters of Random Forest (number of trees and max depth of each tree) and Logistic Regression (regularization) using grid search with K-fold Cross-Validation; finally, 3) trains Random Forest and Logistic Regression using the optimized hyper-parameters. The logistic regression and random forest classifers of Weka machine learning tool are called by workflow 1. Interface module: main.py
 
 Machine Learning Workflow 2: 1) apply the pre-processing methods: a) Oversampling, b) Polynomial feature construction, c) Information gain feature selection and d) Genetic algorithm feature selection; then, (2) optimizes the hyper-parameters of Neual Networks, Gaussian Process, SVM, XGBoost or Random Forest; finally, 3) train a classifier and select an optimal classification threshold using the training set. The pre-processing methods of workflow 1 are called by workflow 2. The Neual Networks, Gaussian Process, SVM, XGBoost and Random Forest classifiers of sklearn tool are called by workflow 2. 
+Interface module: pipeline.py
 
 Programs to test the performance of the trained classifiers on a testset.
 
