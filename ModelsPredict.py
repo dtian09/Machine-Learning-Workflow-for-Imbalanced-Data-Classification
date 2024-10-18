@@ -14,7 +14,6 @@ paths setting: weka path
                PTB classifiers path
                test sets path
                results path
-author: David Tian (dtian09@gmail.com; d.tian@sheffield.ac.uk)
 """
 import pandas as pd
 #import workflows as wf
