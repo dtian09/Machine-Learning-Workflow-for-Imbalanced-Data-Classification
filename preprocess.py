@@ -1,6 +1,5 @@
 '''
 Data Preprocessing Algorithms for Machine Learning
-written by David Tian
 '''
 from sklearn.preprocessing import PolynomialFeatures
 import numpy as np
